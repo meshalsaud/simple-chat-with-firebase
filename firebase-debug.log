@@ -1,0 +1,35 @@
+[debug] [2019-07-28T16:23:01.017Z] ----------------------------------------------------------------------
+[debug] [2019-07-28T16:23:01.020Z] Command:       /usr/local/bin/node /Users/meshal/.npm-global/bin/firebase serve
+[debug] [2019-07-28T16:23:01.020Z] CLI Version:   7.1.1
+[debug] [2019-07-28T16:23:01.021Z] Platform:      darwin
+[debug] [2019-07-28T16:23:01.021Z] Node Version:  v11.13.0
+[debug] [2019-07-28T16:23:01.025Z] Time:          Sun Jul 28 2019 19:23:01 GMT+0300 (Arabian Standard Time)
+[debug] [2019-07-28T16:23:01.025Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-07-28T16:23:01.037Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-07-28T16:23:01.038Z] > authorizing via signed-in user
+[debug] [2019-07-28T16:23:01.038Z] [iam] checking project friendlychat-cb6e6 for permissions ["firebase.projects.get"]
+[debug] [2019-07-28T16:23:01.040Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/friendlychat-cb6e6:testIamPermissions  
+
+[debug] [2019-07-28T16:23:02.197Z] <<< HTTP RESPONSE 200
+[debug] [2019-07-28T16:23:02.201Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/friendlychat-cb6e6  
+ 
+[debug] [2019-07-28T16:23:02.713Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/meshal/Desktop/simple-chat'...
+[info] 
+[debug] [2019-07-28T16:23:02.717Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/friendlychat-cb6e6/webApps/-/config  
+ 
+[warn] ⚠  Your requested "node" version "8" doesn't match your global version "11"
+[debug] [2019-07-28T16:23:02.732Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/friendlychat-cb6e6/adminSdkConfig  
+ 
+[debug] [2019-07-28T16:23:03.049Z] <<< HTTP RESPONSE 200
+[debug] [2019-07-28T16:23:03.196Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: ./public
+[info] ✔  hosting: Local server: http://localhost:5000
+[info] ✔  functions: Emulator started at http://localhost:5001
+[info] i  functions: Watching "/Users/meshal/Desktop/simple-chat/functions" for Cloud Functions...
+[debug] [2019-07-28T16:23:03.675Z] [runtime-status] Functions runtime initialized. {"cwd":"/Users/meshal/Desktop/simple-chat/functions","node_version":"11.13.0"}
+[debug] [2019-07-28T16:23:03.676Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true} {}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
